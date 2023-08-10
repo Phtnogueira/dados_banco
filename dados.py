@@ -13,7 +13,7 @@ numero_saques = 0
 LIMITE_SAQUES = 3
 
 while True:
-    
+
     opcao = input(menu)
     
     if opcao == "d":
@@ -46,7 +46,7 @@ while True:
 
         elif valor > 0:
             saldo -= valor
-            extrato += f"Saque: R$ {valor:.2f}\n" 
+            extrato += f" Saque: R$ {valor:.2f}\n" 
             numero_saques += 1
 
         else:
